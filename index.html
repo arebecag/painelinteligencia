@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel de Inteligência | Grupo Zonta</title>
+    <meta
+      name="description"
+      content="Central de inteligência para acessar projetos estratégicos do Grupo Zonta."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand-block">
+            <div class="brand-mark">Z</div>
+            <div>
+              <p class="eyebrow">Grupo Zonta</p>
+              <h1>Painel de Inteligência</h1>
+            </div>
+          </div>
+
+          <div class="topbar-badge">
+            <span class="badge-dot"></span>
+            Operação centralizada
+          </div>
+        </nav>
+
+        <section class="hero-content">
+          <div class="hero-copy">
+            <p class="section-label">Ecossistema digital</p>
+            <h2>Uma porta de entrada única para os projetos estratégicos da operação.</h2>
+            <p class="hero-text">
+              Um dashboard clean, moderno e orientado à inteligência para acompanhar, acessar e priorizar
+              iniciativas como Páscoa Gamificada e Condor Premia, além de abrir espaço para novas frentes.
+            </p>
+
+            <div class="hero-actions">
+              <a class="primary-btn" href="#projetos">Explorar projetos</a>
+              <a class="ghost-btn" href="#visao-geral">Ver visão geral</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" id="visao-geral">
+            <div class="panel-grid">
+              <article>
+                <span>Projetos ativos</span>
+                <strong>02</strong>
+              </article>
+              <article>
+                <span>Integrações em fila</span>
+                <strong>01</strong>
+              </article>
+              <article>
+                <span>Base visual</span>
+                <strong>Clean + Blue</strong>
+              </article>
+              <article>
+                <span>Governança</span>
+                <strong>Centralizada</strong>
+              </article>
+            </div>
+          </aside>
+        </section>
+      </header>
+
+      <main>
+        <section class="insights-strip">
+          <div>
+            <p class="section-label">Prioridades atuais</p>
+            <h3>Foco em acesso rápido, status dos projetos e leitura executiva.</h3>
+          </div>
+          <div class="insight-pill">Monitoramento visual</div>
+          <div class="insight-pill">Acesso unificado</div>
+          <div class="insight-pill">Escalável para novos produtos</div>
+        </section>
+
+        <section class="projects-section" id="projetos">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Projetos mapeados</p>
+              <h3>Ambiente central para navegação e acompanhamento.</h3>
+            </div>
+            <p>
+              Os cards abaixo foram estruturados para dar clareza entre o que já está pronto para acesso e o que
+              ainda depende de conexão.
+            </p>
+          </div>
+
+          <div class="projects-grid" id="projects-grid"></div>
+        </section>
+
+        <section class="roadmap-section" id="roadmap">
+          <div class="section-heading compact">
+            <div>
+              <p class="section-label">Roadmap do painel</p>
+              <h3>Pronto para crescer com novas jornadas e indicadores.</h3>
+            </div>
+          </div>
+
+          <div class="roadmap-grid">
+            <article>
+              <span class="roadmap-step">01</span>
+              <h4>Hub de projetos</h4>
+              <p>Centralização visual e acesso rápido às iniciativas prioritárias da área.</p>
+            </article>
+            <article>
+              <span class="roadmap-step">02</span>
+              <h4>Integrações</h4>
+              <p>Conectar o Condor Premia e futuras plataformas diretamente aos respectivos ambientes.</p>
+            </article>
+            <article>
+              <span class="roadmap-step">03</span>
+              <h4>Camada analítica</h4>
+              <p>Adicionar KPIs, status operacionais e inteligência acionável dentro do mesmo painel.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
